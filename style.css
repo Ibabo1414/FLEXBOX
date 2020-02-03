@@ -1,0 +1,73 @@
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1{
+	color: blue;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+h1:hover{
+	background-color: #adff2f;
+	color: #000000;
+}
+
+p{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+ul{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+div{
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+div li{
+	list-style-type: none;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	padding: 6px 30px;
+	color: white;
+	cursor: pointer;
+	font-size: 17px;
+	border: 1px solid white;
+}
+
+div ul{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.idee{
+	background-color: black;
+}
+.num:hover{
+	background-color: blue;
+	border-top: rgb(228, 77, 38, 0.15);
+}
+
+.eco:hover{
+	background-color: pink;
+	border-top: rgb(228, 77, 38, 0.15);
+}
+
+.secu:hover{
+	background-color: green;
+	border-top: rgb(228, 77, 38, 0.15);
+}
+.God:hover{
+	background-color: #555555;
+	border-top: rgb(228, 77, 38, 0.15);
+}
+.Ho:hover{
+	background-color: #008CBA;
+	border-top: rgb(228, 77, 38, 0.15);
+}
+
